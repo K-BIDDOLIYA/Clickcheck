@@ -1,20 +1,20 @@
-#ClickCheck
+# Clickcheck
 
-A tiny reaction-time web app built for the Shrink YSWS.
+A tiny reaction-time test built for the 3 KB Data URI YSWS challenge.
 
-Click Start, wait for the red circle to turn green, then click "Click Me!" as quickly as possible. Your reaction time is displayed in milliseconds.
-Click only once.
+Click **Start**, wait for the red circle to turn green, then click **Click Me!** as quickly as possible. Your reaction time is measured in milliseconds.
 
-**Features**
-Random wait time
-Accurate reaction-time measurement
-Minimal HTML, CSS, and JavaScript
-Single index.html
-Built and compressed into a Data URI
-Designed to stay under the 3 KB limit
-Build
+## Features
+
+- Random reaction delay
+- Accurate reaction-time measurement
+- Minimal HTML, CSS, and JavaScript
+- Single HTML file
+- No external dependencies
+- Built into a Data URI
+- Designed to stay under the 3 KB limit
+
+## Build
+
+```bash
 node build.mjs
-
-The generated Data URI is saved to:
-
-dist/uri.txt
