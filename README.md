@@ -1,11 +1,11 @@
-Reaction Test
+#ClickCheck
 
 A tiny reaction-time web app built for the Shrink YSWS.
 
 Click Start, wait for the red circle to turn green, then click "Click Me!" as quickly as possible. Your reaction time is displayed in milliseconds.
 Click only once.
 
-Features
+**Features**
 Random wait time
 Accurate reaction-time measurement
 Minimal HTML, CSS, and JavaScript
